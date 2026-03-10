@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Shop - Products</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f4f4f4;
+}
+
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+nav{
+background:#444;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:orange;
+}
+
+.container{
+padding:30px;
+text-align:center;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.card{
+background:white;
+width:220px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.price{
+color:green;
+font-weight:bold;
+}
+
+button{
+background:orange;
+border:none;
+padding:10px 15px;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:darkorange;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Our Products 🛍️</h1>
+</header>
+
+<nav>
+<a href="Home.html">Home</a>
+<a href="Product.html">Products</a>
+<a href="about.html">About</a>
+<a href="Contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>Available Products</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523381294911-8d3cead13475">
+<h3>T-Shirt</h3>
+<p class="price">₹799</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+<h3>Shoes</h3>
+<p class="price">₹1499</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+<h3>Smart Watch</h3>
+<p class="price">₹1999</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+<h3>Mobile</h3>
+<p class="price">₹64999</p>
+<button>Buy Now</button>
+</div>
+
+<footer>
+<p>© 2026 My Shop | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
